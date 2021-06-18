@@ -1,0 +1,4 @@
+﻿  Kingdom.cpp
+C:\Users\Denis\Desktop\Folders\eMolod\Kingdom\Kingdom\Kingdom\Town.h(31,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Denis\Desktop\Folders\eMolod\Kingdom\Kingdom\Kingdom\Engine.h(14,27): warning C4018: <: несоответствие типов со знаком и без знака
+  Kingdom.vcxproj -> C:\Users\Denis\Desktop\Folders\eMolod\Kingdom\Kingdom\Debug\Kingdom.exe
