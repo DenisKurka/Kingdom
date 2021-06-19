@@ -21,7 +21,6 @@ public:
         this->name = name;
         this->type = type;
         this->cost = cost;
-
     }
 
     void setCost(int cost) { this->cost = cost; }

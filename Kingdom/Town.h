@@ -28,7 +28,7 @@ public:
         this->lvl = lvl;
     }
     void buildStructure(TownStructure* structure) {
-        if (this->lvl * 2 < structures.size() && this->money >= structure->getCost()) {
+        if (this->money >= structure->getCost()) {
             this->money = this->money - structure->getCost();
             structures.push_back(structure);
         }
@@ -40,7 +40,7 @@ public:
     void Title() {
 
         cout << "                                            --|====> Magic Kingdom <====|-- " << endl << endl;
-        cout << "Food: " << this->food << "     " << "Happiness: " << this->happiness << "      " << "Money: " << this->money << "     " << "Days: " << this->days << "     " << "Town lvl: " << this->lvl << endl << endl;
+        cout << "Food: " << this->food << "     " << "Happiness: " << this->happiness << "      " << "Money: " << this->money << "     " << "Days: " << this->days << "     " << endl << endl;
     }
 
     void setFood(int food) { this->food = food; }
