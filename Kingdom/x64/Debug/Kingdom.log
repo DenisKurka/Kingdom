@@ -1,0 +1,6 @@
+﻿  Engine.cpp
+  Kingdom.cpp
+  Town.cpp
+  TownStructure.cpp
+  Создание кода...
+C:\Users\Denis\Desktop\Kingdom-main\Kingdom\Kingdom.cpp(29): error C4700: использована неинициализированная локальная переменная "player"

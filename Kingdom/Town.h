@@ -19,7 +19,7 @@ private:
     vector<TownStructure*> structures;
 
 public:
-    Town(int food, int happiness, int money, int population, int days, int lvl) {
+    Town(int food = 0, int happiness = 0, int money = 0, int population = 0, int days = 0, int lvl = 0) {
         this->food = food;
         this->happiness = happiness;
         this->money = money;
